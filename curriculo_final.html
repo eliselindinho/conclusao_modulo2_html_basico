@@ -20,15 +20,17 @@
       <table border="0" width="100%">
         <thead>
           <tr height="50px">
-            <td><a href="" target="">Meus dados</a></td>
+            <td><a href="">Meus dados</a></td>
             <td><a href="">Apresentação</a></td>
             <td><a href="">Formação</a></td>
             <td><a href="">Experiência profissional</a></td>
-            <td><a href="">Cursos e certificações</a></td>
+            <td><a href="#cursos-certificacao">Cursos e certificações</a></td>
             <td bgcolor="khaki">
               <a
                 href="video_apresentacao/Apresentação MACH1 .mp4"
-                target="_blank">Vídeo de apresentação</a>            
+                target="_blank"
+                >Vídeo de apresentação</a
+              >
             </td>
           </tr>
         </thead>
@@ -141,7 +143,7 @@
           <br />
           <hr />
           <br />
-          <strong>
+          <strong id="cursos-certificacao">
             <font size="5">Cursos e certificações</font>
           </strong>
           <br />
@@ -184,41 +186,36 @@
         </td>
 
         <td valign="top" bgcolor="mintCream" width="40%">
-            <aside>
-              <strong>
-                <font size="5">Skills</font>
-              </strong>
-              <ul style="list-style-type: circle">
-                <li>HTML5</li>
-              </ul>
-              <ul style="list-style-type: circle">
-                <li>CSS3</li>
-              </ul>
-              <ul style="list-style-type: circle">
-                <li>Javascript</li>
-              </ul>
-              <ul style="list-style-type: circle">
-                <li>Git e Github</li>
-              </ul>
-            </aside>
-          </colgroup>
+          <aside>
+            <strong>
+              <font size="5">Skills</font>
+            </strong>
+            <ul style="list-style-type: circle">
+              <li>HTML5</li>
+              <li>Git e Github</li>
+              <li>CSS3</li>
+              <li>Javascript</li>
+            </ul>
+          </aside>
         </td>
       </tr>
     </table>
 
-    <table border="0"colspan="2">
+    <table border="0" colspan="2">
       <tr>
         <td width="60%">
-          <form action="https://www.w3schools.com/action_page.php"
-          method="post"
-          target="_blank">
+          <form
+            action="https://www.w3schools.com/action_page.php"
+            method="post"
+            target="_blank"
+          >
             <div>
               <h1>Fale comigo por aqui</h1>
               <label
                 >Nome
                 <br />
                 <input
-                style="width:200px"
+                  style="width: 200px"
                   type="text"
                   placeholder="Escreva o seu nome"
                   id="nome"
@@ -233,7 +230,7 @@
                 >E-mail
                 <br />
                 <input
-                style="width:200px"
+                  style="width: 200px"
                   type="text"
                   placeholder="Seu melhor e-mail"
                   id="email"
@@ -248,7 +245,7 @@
                 >Telefone
                 <br />
                 <input
-                  style="width:200px"
+                  style="width: 200px"
                   type="number"
                   placeholder="Seu telefone"
                   id="telefone"
@@ -263,8 +260,8 @@
             </div>
           </form>
         </td>
-        <br>
-        <br>
+        <br />
+        <br />
         <td width="40%" align="justify">
           <label>Sua mensagem (Até 300 caracteres)</label>
           <br />
@@ -272,7 +269,8 @@
             placeholder="Qual o motivo do seu contato?"
             maxlength="300"
             rows="10%"
-            cols="100%"></textarea>
+            cols="100%"
+          ></textarea>
           <br />
           <br />
         </td>
